@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import './App.css';
-import {UncontrolledAccordion} from "./components/UncontrolledAccordion/UncontrolledAccordion";
+import {UseMemoComponent} from "./components/useMemo/UseMemoComponent";
 
 
 
@@ -12,7 +12,7 @@ function App() {
 
     return (
         <div className={'App'}>
-            <UncontrolledAccordion titleValue={'Menu'}/>
+            <UseMemoComponent></UseMemoComponent>
 
         </div>
     );
