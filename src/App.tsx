@@ -1,6 +1,11 @@
 import React, {useState} from 'react';
 import './App.css';
 import {UseMemoComponent} from "./components/useMemo/UseMemoComponent";
+import {
+    UseEffectComponent,
+    UseEffectSetIntervalExample,
+    UseEffectSetTimeoutExample
+} from "./components/useEffect/useEffectComponent";
 
 
 
@@ -12,7 +17,10 @@ function App() {
 
     return (
         <div className={'App'}>
-            <UseMemoComponent></UseMemoComponent>
+            {/*<UseMemoComponent></UseMemoComponent>*/}
+            {/*<UseEffectComponent></UseEffectComponent>*/}
+            {/*<UseEffectSetTimeoutExample></UseEffectSetTimeoutExample>*/}
+            <UseEffectSetIntervalExample></UseEffectSetIntervalExample>
 
         </div>
     );
